@@ -35,6 +35,29 @@ p {
   padding: o 20px;
 }
 
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.text-primary {
+  color: #00ab6b;
+}
+
+.btn:hover {
+  background-color: #1ddd95;
+  color: #333;
+}
+
 /* Navegación */
 #navbar {
   background-color: #000;
@@ -72,4 +95,26 @@ p {
 #navbar ul li a.current {
   background-color: #1ddd95;
   color: #000;
+}
+
+/* Showcase */
+#showcase {
+  background: url("../img/bg-1.jpg") no-repeat center center/cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: white;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
 }
