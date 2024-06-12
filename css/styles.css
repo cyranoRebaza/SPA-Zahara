@@ -118,3 +118,26 @@ p {
   padding-bottom: 20px;
   line-height: 1.7em;
 }
+
+/* Home */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left; /* flote la imagen a la izquierda*/
+  width: 50%;
+  background: url("../img/imagen1.jpg") no-repeat; /* para que no se repita la imagen */
+  background-position: center; /* la posicion del fondo sea centrado */
+  background-size: cover; /* cubra todo el contendor y centre la imagen */
+  min-height: 100%; /* el minimo alto permitido sea el 100% */
+}
+
+#home-info .info-content {
+  float: right; /* par que el contendido se vaya a la derecha */
+  width: 50%;
+  height: 100%; /* para que ocupe el alto de 400px del contenedor home-info*/
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden; /* para impedir que salga los scroll*/
+}
