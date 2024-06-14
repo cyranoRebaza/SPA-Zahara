@@ -35,6 +35,10 @@ p {
   padding: o 20px;
 }
 
+.clr {
+  clear: both; /* Resetear los flotantes */
+}
+
 .btn {
   display: inline-block;
   font-size: 18px;
@@ -140,4 +144,39 @@ p {
   text-align: center;
   padding: 50px 30px;
   overflow: hidden; /* para impedir que salga los scroll*/
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 20px; /* para que se separe el icono del texto del titulo*/
+}
+
+.bg-gray {
+  background: #cfcfcf;
+  color: #333;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #1ddd95;
+  color: #333;
+}
+
+/* Fotter */
+#main-footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
 }
