@@ -32,6 +32,65 @@
     </header>
 
     <!-- Contacto -->
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading">
+          <span class="text-primary">Contáctanos</span>
+        </h1>
+        <p>¿Tienes alguna pregunta? solo llena el formulario</p>
+
+        <form action="procesar.php">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Ingresa tu nombre"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ingresa tu email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="nombre">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+
+            <button class="btn">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fa-solid fa-house-chimney-user fa-3x"></i>
+          <h3>Ubicacion</h3>
+          <p>Provincia de Buenos Aires</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Telefono</h3>
+          <p>(54)23568492</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email</h3>
+          <p>juanperez@gmail.com</p>
+        </div>
+      </div>
+    </section>
 
     <!-- footer -->
     <footer id="main-footer">
