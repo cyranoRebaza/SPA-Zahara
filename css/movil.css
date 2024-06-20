@@ -39,3 +39,14 @@
   float: none;
   width: 100%;
 }
+
+/* Empresa */
+#about-info .info-left,
+#about-info .info-right {
+  float: none;
+  width: 100%;
+}
+
+.l-heading {
+  text-align: center;
+}
