@@ -31,6 +31,7 @@
 
 #home-info .info-content {
   float: none;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -48,5 +49,15 @@
 }
 
 .l-heading {
+  text-align: center;
+}
+
+/* Contacto */
+#contact-info .box {
+  padding: 10px 0;
+  border-bottom: 1px solid grey;
+}
+
+#contact-form p {
   text-align: center;
 }
